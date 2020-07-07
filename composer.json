@@ -13,9 +13,7 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {
-        "ramsey/uuid": "^4.0"
-    },
+    "require": {},
     "autoload": {
         "psr-4": {
             "cwreden\\Tracking\\": "src/"
