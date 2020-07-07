@@ -1,0 +1,29 @@
+{
+    "name": "cwreden/tracking",
+    "description": "This library provide some tools for collecting server side user tracking data",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cwreden",
+            "email": "christian@wreden.eu"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ramsey/uuid": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "cwreden\\Tracking\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "cwreden\\Tests\\Tracking\\": "tests/"
+        }
+    }
+}
